@@ -26,14 +26,13 @@ class _ShimmerBodyExample extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: SizedBox(
-          width: 200.0,
-          height: 100.0,
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
           child: Shimmer.fromColors(
             baseColor: Colors.red,
             highlightColor: Colors.yellow,
             child: const Text(
-              'Shimmer',
+              'Suscríbete a mi canal',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 40.0,
