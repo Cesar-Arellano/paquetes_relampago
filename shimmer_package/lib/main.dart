@@ -32,7 +32,7 @@ class _ShimmerBodyExample extends StatelessWidget {
             baseColor: Colors.red,
             highlightColor: Colors.yellow,
             child: const Text(
-              'Suscríbete a mi canal',
+              'Suscríbete',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 40.0,
