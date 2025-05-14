@@ -19,8 +19,8 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class _ShimmerBodyExample extends StatelessWidget {
-  const _ShimmerBodyExample();
+class ShimmerBodyExample extends StatelessWidget {
+  const ShimmerBodyExample({super.key});
 
   @override
   Widget build(BuildContext context) {
