@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Shimmer App',
       debugShowCheckedModeBanner: false,
-      home: const _ShimmerBodyExample(),
+      home: const LoadingListPage(),
       theme: ThemeData.dark(),
     );
   }

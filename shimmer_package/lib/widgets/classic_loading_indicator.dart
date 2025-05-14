@@ -5,8 +5,9 @@ class ClassicLoadingIndicator extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: CircularProgressIndicator(color: Colors.white),
-    );
+    return Container(
+      alignment: Alignment.topCenter,
+      margin: const EdgeInsets.only(top: 12),
+      child: const CircularProgressIndicator(color: Colors.white));
   }
 }
